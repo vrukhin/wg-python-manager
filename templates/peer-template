@@ -1,0 +1,4 @@
+[Peer]
+#<username>
+PublicKey = <userPublicKey>
+AllowedIPs = 10.0.0.<userIP>/32

@@ -1,0 +1,10 @@
+[Interface]
+PrivateKey = <userPrivateKey>
+Address = 10.0.0.<userIP>/32
+DNS = 8.8.8.8
+
+[Peer]
+PublicKey = <serverPublicKey>
+Endpoint = <serverIP>:<serverPort>
+AllowedIPs = 0.0.0.0/0
+PersistentKeepalive = 20
